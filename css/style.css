@@ -1,0 +1,396 @@
+body {
+  line-height: 18px;
+  background-attachment: fixed;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column; }
+
+.checkin{
+  font-size: 20px !important;
+  padding: 0px;
+}
+
+#carouselExampleIndicators {
+  margin-top: 75px; }
+
+.titulosSecciones {
+  font-size: 4rem;
+  font-family: "Abril Fatface", cursive;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  margin-top: 140px !important;
+}
+
+.subtituloCentrado {
+  font-size: 1.8rem;
+  font-family: "Handlee", cursive; 
+  text-align: center;
+  font-weight: bold; }
+
+.margin {
+  margin-top: 110px; }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .containerBackground {
+    height: 40vh;
+    margin-top: 70px; }
+  .subtituloCentrado {
+    font-size: 1.5rem; }
+  #carouselExampleIndicators {
+    margin-top: 70px; }
+  .tituloBanner {
+    font-size: 2.5rem !important; }
+  .pieDePagina {
+    text-align: center; }
+    .pieDePagina i {
+      padding: 5px !important; }
+  .sweetBanner .subtituloCentrado {
+    line-height: initial; } }
+
+.info2 {
+  padding: 0% !important; }
+
+
+nav {
+  width: 100%;
+  height: 75px;
+  background-color:black;
+  margin-bottom: 50px;
+  border-bottom: 0.5px #333;
+  z-index: 1;
+  box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.3);
+  animation-name: efecto_nav;
+  animation-duration: 1s;
+  animation-timing-function: linear; }
+
+@keyframes efecto_nav {
+  0% {
+    opacity: 0%; }
+  50% {
+    opacity: 50%; }
+  100% {
+    opacity: 100%; } }
+
+.fixedNav {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  border-bottom: 0.5px black;
+  z-index: 100;
+  box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.3); }
+
+.ulNav {
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .ulNav li {
+    width: 20%;
+    text-align: center;
+    list-style: none;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    font-size: 1.5rem; }
+    .ulNav li i{
+    font-size: 2.5rem;}
+  .ulNav a {
+    padding-left: 3px;
+    text-decoration: none;
+    color: white !important;
+    text-align: center;
+    transition: 0.5s; }
+    .ulNav a:hover {
+      font-weight: 900;
+      font-size: 1.2rem;
+      background-color: #dad8d8;
+      color: black;
+      border-radius: 10px 10px 10px 10px;
+      padding: 10px; }
+
+.boton-menu {
+  background-color: none; }
+
+.dropdown {
+  padding-top: 10.5px;
+  padding-left: 30px; }
+
+.dropdown-menu {
+  background: black;
+  background: linear-gradient(153deg, black 30%, #222222 83%);
+  margin: 0;
+  padding: 0; }
+
+.dropdown-item {
+  margin: 0;
+  padding: 1em;
+  padding-top: 18px;
+  line-height: 1px;
+  color: white !important;
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
+  align-items: center; }
+  .dropdown-item a {
+    height: 24px;
+    padding-top: 10px; }
+  .dropdown-item i {
+    height: 24px;
+    padding-right: 10px; }
+
+.logo {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  border: solid black; }
+
+.logoMediaQueries {
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 2;
+  border: solid black; }
+
+#logoHover {
+  padding: 0%; }
+
+.navbar {
+  height: 75px;
+  background-color: black !important;
+  border-bottom: 0.5px #333;
+  box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  border-bottom: 0.5px #333;
+  z-index: 1;
+  animation-name: efecto_nav;
+  animation-duration: 1s;
+  animation-timing-function: linear; }
+
+@media (min-width: 768px) {
+  #navMobile {
+    display: none; } }
+
+@media (max-width: 1199px) {
+  .ulNav a:hover {
+    font-weight: 900;
+    background-color: #333;
+    transition: 0.5s;
+    color: white;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 1.2rem; } }
+
+@media (max-width: 991px) {
+  .ulNav li {
+    font-size: 1.1rem; }
+  .ulNav a:hover {
+    font-size: 16px;
+    padding: 5px; } }
+
+@media (max-width: 767px) {
+  #navDesktop {
+    display: none; }
+  #navMobile p {
+    text-align: center;
+    font-family: mons;
+    font-size: 12px;
+    line-height: 38px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 18.5px;
+    left: 68%; } 
+    .footer3{
+      text-align: center !important;
+      margin-left: 30px !important;
+    }
+  }
+
+.pieDePagina {
+  background-color: black; }
+  .pieDePagina i {
+    color: #fff;
+    font-size: 2.5em;
+    padding: 15px; }
+
+.fa-whatsapp:hover, .fa-instagram:hover, .fa-map-marker-alt:hover, .fa-envelope:hover {
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s; }
+
+.fa-whatsapp:hover {
+  color: #3fdd2a; }
+
+.fa-instagram:hover {
+  color: #dd2a7b; }
+
+.fa-map-marker-alt:hover {
+  color: red; }
+
+.fa-envelope:hover {
+  color: #42d8a1; }
+
+.footerTitulo {
+  font-size: 1.3rem;
+  color: white;
+  font-family: "Abril Fatface", cursive; }
+
+.contenidoFooter {
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 1.3rem;
+  padding: 0px !important;
+}
+
+.featuredTitle {
+  font-family: "Lobster", cursive;
+  color: black;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 3rem 0 2rem 0; }
+
+.featuredCard {
+  margin-bottom: 2rem;
+  color: black;
+  font-family: "Handlee", cursive; }
+  .featuredCard:hover {
+    box-shadow: 0px 0px 20px 3px #dad8d8; }
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.2rem; }
+
+.cardPrice {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+  color: #2a27e6; }
+
+.cardText {
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: center;}
+  .cardText2{
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-align: center;
+  color: red;
+  font-family:"Abril Fatface", cursive;
+  }
+
+/* Animations */
+.featuredTitleAnimation {
+  opacity: 0;
+  animation: featuredTitleAnimation;
+  animation-duration: 3s;
+  animation-fill-mode: forwards; }
+
+@keyframes featuredTitleAnimation {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.textAnimation {
+  opacity: 0;
+  animation: textAnimation;
+  animation-duration: 3s;
+  animation-fill-mode: forwards; }
+
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.animation, .animation2, .animation3, .animation4, .animation5, .animation6, .animation7, .animation8 {
+  opacity: 0;
+  animation: animation;
+  animation-duration: 4s;
+  animation-fill-mode: forwards; }
+
+.animation2 {
+  animation-delay: 0.3s; }
+
+.animation3 {
+  animation-delay: 0.6s; }
+
+.animation4 {
+  animation-delay: 0.9s; }
+
+.animation5 {
+  animation-delay: 1.2s; }
+
+.animation6 {
+  animation-delay: 1.5s; }
+
+.animation7 {
+  animation-delay: 1.8s; }
+
+.animation8 {
+  animation-delay: 2.1s; }
+
+@keyframes animation {
+  0% {
+    opacity: 0;
+    transform: translateY(40px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+
+
+
+span {
+  font-size: 1rem;
+  font-family: "Handlee", cursive;
+  color: #fff; }
+
+#carousel2 #carouselExampleIndicators {
+  margin-top: 0px; }
+  
+footer {
+  background-color: black;
+  margin-top: 40px; 
+}
+footer div h4 {
+  color: white; 
+  font-family: "Abril Fatface", cursive;
+  font-size: 40px;
+} 
+footer div p {
+  color: white; 
+  font-family: "Handlee", cursive;
+  font-size: 25px;
+}  
+footer div h6 {
+  color: white; 
+  font-family: "Abril Fatface", cursive;
+  font-size: 25px;
+} 
+footer div i {
+  color: white; 
+  font-size: 30px;
+}   
+footer .row{
+  margin-right: 0px !important;
+}     
+.transport {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.footer2{
+  margin-left: 20px;
+}
+
